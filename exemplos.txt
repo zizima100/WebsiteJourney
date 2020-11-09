@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Pagina</title>
+</head>
+<body>
+    <h1>Minha Página!</h1>
+    <p>Para colocar uma palavra em negrito, você deve usar a tag <strong>STRONG</strong>.</p>
+    <p>Para colocar uma palavra ou frase em itáligo, usa-se <em>EM</em>, de emphasis.</p>
+    <p>Da para criar botões! Use a tag <button>Button!</button></p>
+    <p>Eu posso criar itens! Para isso, uso a tag "li".</p>
+    <li>Eu sou um item!</li>
+    <p>Mas para criar listas com itens dentro, uso a tag "ul" ou "ol" - unsorted list e organized list.</p>
+    <ul>
+        <li>Eu sou um item de um lista desorganizada!</li>
+        <li>Eu sou um outro item!</li>
+    </ul>
+    <ol>
+        <li>Eu sou o primeiro item de uma lista organizada!</li>
+        <li>Eu sou o segundo item!</li>
+    </ol>
+</body>
+</html>
