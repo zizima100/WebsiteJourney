@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(46, 46, 46);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header {
+    background-image: url("hero.jpg");
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+}
+
+.logo a {
+    background-image: url("logo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(255, 0, 0, 0);
+    display: inline-block;
+    height: 50px;
+    position: relative;
+    top: -10px;
+    width: 50px;
+}
+
+header li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header .links {
+    position: relative;
+    top: 5px;
+}
+
+header .links a {
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+}
+
+header .links a:hover {
+    color: white;
+}
+
+.linha {
+    background-color: rgb(160, 159, 159);
+    width: 100%;
+    height: 2px;
+}
+
+.destaques {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+}
+
+.destaques figure {
+    background-color: red;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.destaques figure img{
+    width: 200px;
+    border-radius: 365px;
+}
