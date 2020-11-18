@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: rgb(75, 75, 75);
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+
+header {
+    padding: 10px 10px 5px 10px;
+    background-color: rgb(117, 117, 117);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+}
+
+#img-logo {
+    width: 60px;
+}
+
+#nav-bar {
+    margin-right: 50px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.link:hover {
+    animation-name: animacao-link;
+    animation-duration: 800ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animacao-link{
+    100% {
+        color: black;
+        background-color: white;
+    }
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#bloco-central {
+    background-color: rgb(117, 117, 117);
+    padding: 25px;
+    width: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    box-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+
+#imagem-centro {
+    width: 300px;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    margin-right: 50px;
+}
+
+#bloco-lado-imagem {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    color: white;
+    align-items: space-between;
+}
+
+h4 {
+    text-align: left;
+    font-size: 60px;
+}
+
+p {
+    text-align: justify;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#botao {
+    background-color: #F7A248;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    margin-top: 10px;
+    color: rgb(70, 70, 70);
+}
+
+#botao:hover {
+    animation-name: animacao-botao;
+    animation-duration: 800ms;
+    animation-fill-mode: forwards;
+}
+
+#link-botao {
+    font-size: 26px;
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+@keyframes animacao-botao {
+    100% {
+        color: black;
+        border-color: black;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    color: white;
+    height: 13px;
+    background-color: rgb(94, 94, 94);
+}
